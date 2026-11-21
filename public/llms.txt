@@ -1,0 +1,26 @@
+# Rocket Anúncios - Meta Ads, Sites, Catálogos com IA e Link da Bio
+
+> Rocket Anúncios é um estúdio digital sediado em Fortaleza - CE, liderado por Neto, focado em lojistas e marcas que querem atrair clientes e vender todos os dias pelo WhatsApp com valores transparentes.
+
+## Informações Principais do Negócio
+- **Nome da Empresa:** Rocket Anúncios
+- **Fundador / Responsável:** Neto
+- **Localização:** Fortaleza, Ceará, Brasil (atendimento em todo o Brasil)
+- **Público-Alvo:** Lojistas de moda, comércio local, marcas do Centro Fashion de Fortaleza, e-commerces e prestadores de serviços.
+- **WhatsApp Oficial:** +55 (85) 98150-8799
+- **Instagram Oficial:** https://www.instagram.com/rocketanuncios (@rocketanuncios)
+- **Site Oficial:** https://rocketanuncios.netlify.app/
+
+## Serviços e Valores Transparentes
+- **Gestão de Meta Ads (R$ 600/mês):** Campanhas no Instagram e Facebook levando clientes direto para o WhatsApp. **Sem contrato mínimo de 3 meses** e sem multa de cancelamento.
+- **Criação de Landing Page (R$ 300 — valor único):** Página rápida e personalizada para transformar visitas em mensagens no WhatsApp.
+- **Site Estilo Catálogo (R$ 600 criação + R$ 100/mês):** Vitrine organizada por categorias com carrinho/pedido direto no WhatsApp e suporte mensal.
+- **Catálogo Virtual com Fotos IA (R$ 1.000 — criação completa):** Fotos de estúdio geradas com inteligência artificial a partir de fotos simples do celular + catálogo virtual pronto para vender.
+- **Link da Biografia Personalizado (R$ 150 — valor único):** Página exclusiva para a bio do Instagram com botões para WhatsApp, catálogo e mapa.
+
+## Combos com Desconto
+- **Combo Presença Digital (R$ 390 — pagamento único):** Link da Bio + Landing Page (economia de R$ 60 sobre R$ 450).
+- **Combo Loja Vendedora (R$ 1.050 no 1º mês):** Meta Ads (1º mês) + criação do Site Catálogo (economia de R$ 150 sobre R$ 1.200; depois R$ 700/mês).
+
+## Documentação Detalhada
+- [Visão Completa e FAQ](https://rocketanuncios.netlify.app/llms-full.txt): Conhecimento aprofundado para assistentes de IA sobre serviços, preços, combos e perguntas frequentes.

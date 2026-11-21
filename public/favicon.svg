@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <rect width="512" height="512" rx="128" fill="#07131F"/>
+  <rect width="510" height="510" x="1" y="1" rx="127" fill="none" stroke="#22D3EE" stroke-opacity="0.3" stroke-width="4"/>
+  <!-- Rocket Body & Flame Icon -->
+  <g transform="translate(64, 48) scale(0.75)">
+    <!-- Flame -->
+    <path d="M120 380 C110 430, 80 460, 50 480 C110 480, 160 440, 170 380 Z" fill="#FF9F1C"/>
+    <path d="M135 390 C125 425, 105 445, 80 460 C120 460, 155 430, 160 390 Z" fill="#FFC83B"/>
+    <!-- Rocket Wings & Fuselage -->
+    <path d="M180 80 C260 60, 380 120, 420 280 C360 300, 280 280, 220 220 C180 260, 140 320, 100 360 C130 310, 140 260, 130 220 C100 180, 80 140, 180 80 Z" fill="#22D3EE"/>
+    <path d="M220 220 C270 170, 330 130, 400 110 C370 200, 310 250, 220 220 Z" fill="#0EA5E9"/>
+    <!-- Window -->
+    <circle cx="280" cy="180" r="32" fill="#07131F" stroke="#F8FAFC" stroke-width="12"/>
+  </g>
+</svg>

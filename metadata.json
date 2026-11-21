@@ -1,0 +1,6 @@
+{
+  "name": "Rocket Anúncios - Gestão de Tráfego Pago Meta Ads",
+  "description": "Landing page interativa e direta de gestão de tráfego pago no Instagram e Facebook para lojas físicas e digitais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-sans: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-obsidian: #060910;
+  --color-clay-base: #EAF0F6;
+  --color-clay-card: #F7FAFD;
+  --color-ink: #132033;
+  --color-muted: #52637A;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #D5DFEB;
+    color: #132033;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #D5DFEB;
+    color: #132033;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide scrollbars cleanly for mobile horizontal tab bars */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Light Creamy Claymorphism / Soft Matte Rubber 3D Surfaces */
+.clay-shell {
+  box-shadow:
+    inset 3px 4px 10px rgba(255, 255, 255, 0.92),
+    inset -5px -6px 16px rgba(148, 163, 184, 0.42),
+    0 24px 60px -12px rgba(51, 65, 85, 0.3);
+}
+
+.clay-sidebar {
+  box-shadow:
+    inset 2px 3px 8px rgba(255, 255, 255, 0.14),
+    inset -6px -4px 16px rgba(0, 0, 0, 0.42),
+    8px 0 20px rgba(15, 23, 42, 0.18);
+}
+
+.clay-card {
+  box-shadow:
+    inset 3px 4px 10px rgba(255, 255, 255, 0.9),
+    inset -4px -5px 12px rgba(156, 173, 194, 0.38),
+    0 10px 22px -6px rgba(100, 116, 139, 0.24);
+}
+
+.clay-card-dark {
+  box-shadow:
+    inset 3px 4px 10px rgba(255, 255, 255, 0.14),
+    inset -4px -5px 12px rgba(0, 0, 0, 0.48),
+    0 12px 24px -6px rgba(0, 0, 0, 0.4);
+}
+
+.clay-card-interactive {
+  box-shadow:
+    inset 3px 4px 10px rgba(255, 255, 255, 0.9),
+    inset -4px -5px 12px rgba(148, 163, 184, 0.38),
+    0 10px 22px -6px rgba(100, 116, 139, 0.24);
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.clay-card-interactive:active {
+  transform: scale(0.985);
+}
+
+/* Recessed soft rubber well */
+.clay-well {
+  box-shadow:
+    inset 3px 4px 8px rgba(156, 173, 194, 0.48),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.9);
+}
+
+.clay-well-dark {
+  box-shadow:
+    inset 4px 5px 10px rgba(0, 0, 0, 0.6),
+    inset -2px -3px 6px rgba(255, 255, 255, 0.08);
+}
+
+/* Puffy 3D rubber icon cushion */
+.clay-orb {
+  box-shadow:
+    inset 2px 3px 5px rgba(255, 255, 255, 0.52),
+    inset -2px -3px 6px rgba(0, 0, 0, 0.24),
+    0 6px 12px -3px rgba(71, 85, 105, 0.28);
+}
+
+/* Puffy 3D rubber button */
+.clay-btn {
+  box-shadow:
+    inset 2px 3px 6px rgba(255, 255, 255, 0.45),
+    inset -2px -3px 7px rgba(0, 0, 0, 0.22),
+    0 8px 16px -4px rgba(71, 85, 105, 0.28);
+  transition: transform 140ms cubic-bezier(0.16, 1, 0.3, 1), filter 140ms ease;
+}
+
+.clay-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+}
+
+.clay-btn:active {
+  transform: translateY(1px) scale(0.97);
+}
+
+/* Active sidebar pillow pill */
+.clay-pill-active {
+  box-shadow:
+    inset 2px 3px 6px rgba(255, 255, 255, 0.92),
+    inset -2px -3px 6px rgba(148, 163, 184, 0.38),
+    0 8px 16px -4px rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
